@@ -1,0 +1,7 @@
+<list></list>
+<p>
+  Selected: {{vm.$myService.selectedItem}}
+</p>
+
+<foo ng-if="vm.$myService.selectedItem.type === 'foo'" id="vm.$myService.selectedItem.id"></foo>
+<bar ng-if="vm.$myService.selectedItem.type === 'bar'" id="vm.$myService.selectedItem.id"></bar>

@@ -1,0 +1,5 @@
+<ul>
+  <li ng-repeat="item in vm.items" ng-click="vm.select(item)" class="clickable" ng-class="{selected: vm.$myService.selectedItem === item}">
+    {{item.value}}
+  </li>
+</ul>
